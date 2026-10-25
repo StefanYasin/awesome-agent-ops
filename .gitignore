@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local link reports
+link-report.json
+
+# OS files
+.DS_Store
+Thumbs.db
