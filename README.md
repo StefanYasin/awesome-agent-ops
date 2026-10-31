@@ -8,13 +8,13 @@ This is not a list of agents. If you want frameworks for building agents, [aweso
 
 I keep the scope narrow. A project belongs here if it helps you observe an agent, test it, constrain what it can do, run many of them, meter their usage or recover when they fail. Every entry links to a public repository, and every link is checked by CI on each push and by a weekly review job.
 
-**88 entries across 8 sections. All links resolved when this version was published.**
+**89 entries across 8 sections. All links resolved when this version was published.**
 
 ## Contents
 
 - [Observability and tracing](#observability-and-tracing) (12)
 - [Evaluation and testing](#evaluation-and-testing) (13)
-- [Guardrails and safety](#guardrails-and-safety) (9)
+- [Guardrails and safety](#guardrails-and-safety) (10)
 - [Sandboxes and permissions](#sandboxes-and-permissions) (13)
 - [MCP security and gateways](#mcp-security-and-gateways) (13)
 - [Fleet management and orchestration](#fleet-management-and-orchestration) (11)
@@ -67,6 +67,7 @@ Guardrails check inputs, outputs and tool calls before damage is done. None of t
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - Tencent's red-team platform for AI infrastructure, with scans for agents, MCP servers, skills and model endpoints.
 - [Garak](https://github.com/NVIDIA/garak) - NVIDIA's vulnerability scanner for LLMs, with probe families for jailbreaks, data leakage and prompt injection.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Output validation framework built around RAIL specs and a library of validators for structure, PII and safety.
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security checks for supported AI coding agents, installed skills and plugins, selected tool actions and MCP changes, with approval decisions and local audit records.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Rule-based guardrail layer that sits between an agent and its LLM or MCP servers and inspects tool calls in flight.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Programmable conversation rails using Colang, with input, output and retrieval checks plus tool-call policies.
 - [Presidio](https://github.com/data-privacy-stack/presidio) - Detects and redacts personal data in text and images, with pluggable recognizers and anonymizers for pre- or post-processing pipelines.
