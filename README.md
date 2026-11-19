@@ -8,7 +8,7 @@ This is not a list of agents. If you want frameworks for building agents, [aweso
 
 I keep the scope narrow. A project belongs here if it helps you observe an agent, test it, constrain what it can do, run many of them, meter their usage or recover when they fail. Every entry links to a public repository, and every link is checked by CI on each push and by a weekly review job.
 
-**89 entries across 8 sections. All links resolved when this version was published.**
+**88 entries across 8 sections. All links resolved when this version was published.**
 
 ## Contents
 
@@ -16,7 +16,7 @@ I keep the scope narrow. A project belongs here if it helps you observe an agent
 - [Evaluation and testing](#evaluation-and-testing) (13)
 - [Guardrails and safety](#guardrails-and-safety) (10)
 - [Sandboxes and permissions](#sandboxes-and-permissions) (13)
-- [MCP security and gateways](#mcp-security-and-gateways) (13)
+- [MCP security and gateways](#mcp-security-and-gateways) (12)
 - [Fleet management and orchestration](#fleet-management-and-orchestration) (11)
 - [Cost and usage tracking](#cost-and-usage-tracking) (7)
 - [Incident response](#incident-response) (10)
@@ -105,7 +105,6 @@ MCP gave agents a standard way to reach tools, and a standard way to inherit too
 - [MCP Jungle](https://github.com/mcpjungle/MCPJungle) - Registry and proxy for discovering, grouping and exposing MCP servers through one endpoint.
 - [MCP Remote](https://github.com/punkpeye/mcp-remote) - Bridge that lets stdio-only MCP clients reach remote HTTP or SSE servers without a local gateway.
 - [MCP Shield](https://github.com/riseandignite/mcp-shield) - Scanner for MCP servers that flags tool poisoning, exfiltration channels and cross-origin escalation.
-- [MetaMCP](https://github.com/metatool-ai/metamcp) - Composes several MCP servers behind one endpoint, with middleware, namespacing and a UI for wiring them together.
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway) - Kubernetes reverse proxy and control plane that routes each MCP request to a ready server and manages its lifecycle.
 - [Snyk Agent Scan](https://github.com/snyk/agent-scan) - Scans installed agents, MCP servers and skills for prompt injection and known vulnerabilities, formerly mcp-scan.
 - [Supergateway](https://github.com/supercorp-ai/supergateway) - Bridges MCP transports in both directions, putting a stdio server behind HTTP or SSE, or reaching a remote server from a stdio-only client.
