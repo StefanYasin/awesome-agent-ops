@@ -8,12 +8,12 @@ This is not a list of agents. If you want frameworks for building agents, [aweso
 
 I keep the scope narrow. A project belongs here if it helps you observe an agent, test it, constrain what it can do, run many of them, meter their usage or recover when they fail. Every entry links to a public repository, and every link is checked by CI on each push and by a weekly review job.
 
-**89 entries across 8 sections. All links resolved when this version was published.**
+**90 entries across 8 sections. All links resolved when this version was published.**
 
 ## Contents
 
 - [Observability and tracing](#observability-and-tracing) (12)
-- [Evaluation and testing](#evaluation-and-testing) (13)
+- [Evaluation and testing](#evaluation-and-testing) (14)
 - [Guardrails and safety](#guardrails-and-safety) (10)
 - [Sandboxes and permissions](#sandboxes-and-permissions) (13)
 - [MCP security and gateways](#mcp-security-and-gateways) (13)
@@ -48,6 +48,7 @@ Evals are the regression tests of an agent. The tools here range from prompt ass
 
 - [AgentBench](https://github.com/THUDM/AgentBench) - Benchmark suite that puts models through multi-environment agent tasks such as OS, database and web navigation.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Pytest-style evaluation framework with metrics for hallucination, faithfulness, answer relevance and agent task completion.
+- [EvalShift](https://github.com/evalshift/evalshift-cli) - Replays a golden suite or captured production agent runs on a baseline and a candidate model, then reports which outputs and tool calls regressed before a model swap.
 - [Giskard](https://github.com/Giskard-AI/giskard-oss) - Testing library and scan engine for LLM agents, covering prompt injection, harmful output and RAG quality regressions.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - UK AI Security Institute's eval framework, with solvers, scorers and tool use for agentic benchmarks.
 - [LightEval](https://github.com/huggingface/lighteval) - Hugging Face's benchmark runner for local models and hosted endpoints, with configurable few-shot and generation settings.
